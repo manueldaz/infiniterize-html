@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Online Study Website Design Tutorial</title>
+
+    <!-- google fonts cdn link  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    
+  <!--  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>-->
+    <script src="http://cdn.jsdelivr.net/gh/ethereum//web3.js/dist/web3.min.js"></script>
+   <!-- <script src="js/main.js"></script>-->
+    <script src="js/main.js"></script>
+
+</head>
+<body>
+   
+<!-- header section starts  -->
+
+<header>
+
+    <div class="icons">
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <div id="theme-toggler" class="fas fa-moon"></div>
+    </div>
+
+<!-- navbar section  -->
+
+<nav class="navbar">
+
+    <h3>menu</h3>
+
+    <div class="links">
+        <a href="#home">overview</a>
+        <a href="#products">trading</a>
+        <a href="#featured">exchange</a>
+        <a href="#deal">exchange pro</a>
+        <a href="#review">vault</a>
+        <a href="#home">farming</a>
+        <a href="#products">pools</a>
+        <a href="#featured">nft</a>
+        <a href="#deal">nft marketplace</a>
+        <a href="#review">referral</a>
+        <a href="#products">referral competition</a>
+        <a href="#featured">governance</a>
+        <a href="#deal">docs</a>
+        <a href="#review">white paper</a>
+    </div>
+
+    <div id="close" class="fas fa-times"></div>
+
+</nav>
+
+    <a href="#" class="logo"><img src="img/logo.png" alt=""></a>
+
+   <!-- <a href="#" class="btn">Connect to Wallet</a>-->
+    <button id="connect" onclick="connect()" class="btn">Connect to wallet</button>
+
+</header>
+
+<!-- header section ends -->
+
+<!--pools section starts-->
+<section class="pools" id="pools">
+    <h1>Pools</h1>
+    <p>stake liquidity pool (LP) tokens to earn</p><br>
+    <div class="wrapper">
+    <ul class="wrap__list">
+        <div class="css">
+            <p> Staked only</p>
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+              </label>
+    </div>
+    <div columns="4" spacing="10px" class="css-1od6a13">
+        <div class="css-1fbv9tj">Hot<div class="css-wfu8s2"></div>
+    </div>
+        <div class="css-19wwgmh">Traditional</div>
+        <div class="css-1tpl4us">NFT</div>
+        <div class="css-1tpl4us">Finished</div>
+    </div>
+</ul>
+    <form action="">
+        <input type="search" id="search-bar">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+</div>
+
+</section>
+
+<!--stake section starts-->
+<section class="staked" id="staked">
+    <div class="box-container">
+
+        <div class="box">
+            <h3>rize pool</h3>
+            <span>classic</span>
+            <div class="box-logo">
+                <img src="img/logos.png" alt="">
+                <h2>rize earned</h2>
+                <p>-$0.000</p>
+            </div>
+            <div class="preview-content">
+                    
+                <ul class="preview-location">
+                    <li class="location">apy <img class="chakra-image css-0" src="img/calculator.svg"><b>171.12%</b></li>
+                    <li class="location">rize pool staked <b>$0.000</b></li>
+                    <li class="location">deposite fee <b>2% (+1% RFI)</b></li>
+                    <li class="location">harvest lockup<strong>12 Hour (s)</strong></b></li>
+                    <button class="btn">unlock wallet</button>
+                    <hr>
+                    <p>details</p>
+                    <ul class="details">
+                        <li class="location">total <b>838,677.82 POSI</b></li>
+                        <li class="location">tvl <b>
+                            $2,308,811.82</b></li>
+                        </ul>
+                </ul>
+            </div>
+</section>
+
+<!--info section starts-->
+<section class="infomation" id="information">
+    
+    <div class="info">
+        <h1>Benefits of staking in infinity<span>rize</span>pools</h1>
+        <ul class="list">
+            <div class="content">
+                <div class="image">
+                    <img class="image-txt" src="img/QuickWithdrawal.svg">
+                </div>
+                <div class="text">
+                    <p class="text-1"> Quick Withdrawal </p>
+                </div>
+                <div class="text-p">
+                    <p class="text-css">Immediately start earning on your Staked Crypto. <br> Stake &amp; Cancel anytime  </p>
+                </div>
+            </div>
+            <div class="content">
+                <div class="image">
+                    <img class="image-txt" src="img/Permissionless.svg">
+                </div>
+                <div class="text">
+                    <p class="text-1"> Permissionless </p>
+                </div>
+                <div class="text-p">
+                    <p class="text-css">No authorization or documents needed to start staking.<br> Unlock your wallet and Stake!  </p>
+                </div>
+            </div>
+            <div class="content">
+                <div class="image">
+                    <img class="image-txt" src="img/HighReturn.svg">
+                </div>
+                <div class="text">
+                    <p class="text-1"> High Return </p>
+                </div>
+                <div class="text-p">
+                    <p class="text-css">Receive high yield on staking,<br> up to  231.24% annual interest </p>
+                </div>
+            </div>
+            <div class="content">
+                <div class="image">
+                    <img class="image-txt" src="img/NoFees.svg">
+                </div>
+                <div class="text">
+                    <p class="text-1"> No Fees </p>
+                </div>
+                <div class="text-p">
+                    <p class="text-css">We do not charge any fees for Staking <br> and Withdrawing  </p>
+                </div>
+            </div>
+            <div class="content">
+                <div class="image">
+                    <img class="image-txt" src="img/Safety.svg">
+                </div>
+                <div class="text">
+                    <p class="text-1"> Safety </p>
+                </div>
+                <div class="text-p">
+                    <p class="text-css">The process is completely decentralized and the assets <br> are protected by smart contracts  </p>
+                </div>
+            </div>
+            <div class="content">
+                <div class="image">
+                    <img class="image-txt" src="img/EasyEarning.svg">
+                </div>
+                <div class="text">
+                    <p class="text-1"> Easy earning </p>
+                </div>
+                <div class="text-p">
+                    <p class="text-css">Make your crypto work hard for you and <br> generate passive income  </p>
+                </div>
+            </div>
+        </ul>
+    </div>
+</section>
+
+<!-- deal section starts  -->
+
+<section class="deal" id="deal">
+
+    <h1 class="heading"> special <span>deal</span> </h1>
+
+    <div class="row">
+
+        <div class="content">
+            <span class="discount">upto 50% off</span>
+            <h3 class="text">deal of the day</h3>
+            <div class="count-down">
+                <div class="box">
+                    <h3 id="days">00</h3>
+                    <span>days</span>
+                </div>
+                <div class="box">
+                    <h3 id="hours">00</h3>
+                    <span>hours</span>
+                </div>
+                <div class="box">
+                    <h3 id="minutes">00</h3>
+                    <span>minutes</span>
+                </div>
+                <div class="box">
+                    <h3 id="seconds">00</h3>
+                    <span>seconds</span>
+                </div>
+            </div>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- deal section ends -->
+
+<!--staking stats section starts-->
+
+<section class="stats" id="stats">
+    <div class="container">
+        <h1 class="heading">Staking stats</h1>
+        <div>
+        <ul class="list">
+            <div class="content">
+                <div class="image">
+                    <img class="imake-txt" src="img/icon-staking.svg">
+                </div>
+                <div class="stat-txt">
+                    <p class="texting"> amount staked </p>
+                </div>
+                <div class="stat-number">
+                    <p class="number">0</p>
+                </div>
+                <div class="color-no">
+                    <p class="colorp">0 rize</p>
+                </div>
+            </div>
+            <div class="content">
+                <div class="image">
+                    <img class="image-txt" src="img/users-staking.svg">
+                </div>
+                <div class="stat-txt">
+                    <p class="texting"> number of users </p>
+                </div>
+                <div class="stat-number">
+                    <p class="number">0</p>
+                </div>
+                <div class="color-no">
+                    <p class="colorp">0% user of rize</p>
+                </div>
+            </div>
+        </ul>
+        <div class="amount">
+            <div class="contain">
+                <p class="texting">total amount generated</p>
+                <p class="texting">0</p>
+            </div>
+            <div class="contain">
+                <p class="texting">average amount of staking</p>
+                <p class="texting">0</p>
+            </div>
+            <div class="contain">
+                <p class="texting">staking last 24hours</p>
+                <p class="texting">0</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--customer support session starts here-->
+<section>
+    <div class="container">
+        <div class="support-head">
+            <h2 class="heading">Don't miss out on what's important and follow us</h2>
+            <p class="paragraph">Follow our social media and be the first into discover super promotions which will bring you great income</p>
+        </div>
+        <div class="support-media">
+            <a target="_blank" rel="noopener noreferrer" class="social" href=""><img class="socialmedia" src="img/logos_telegram.svg"></a>
+            <a target="_blank" rel="noopener noreferrer" class="social" href=""><img class="socialmedia" src="img/twitter.svg"></a>
+            <a target="_blank" rel="noopener noreferrer" class="social" href=""><img class="socialmedia" src="img/reddit.svg"></a>
+            <a target="_blank" rel="noopener noreferrer" class="social" href=""><img class="socialmedia" src="img/medium.svg"></a>
+            <a target="_blank" rel="noopener noreferrer" class="social" href=""><img class="socialmedia" src="img/github.svg"></a>
+                        </div>
+        <div class="support-p">
+            <p class="paragraph">If you have any questions or suggestions, please contact our <a href="#"> customer support.</a></p>
+        </div>
+    </div>
+</section>
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+            <div class="container">
+                
+                <div class="css-1ckl1r0">
+                            <div class="css-1byhkv7">
+                                <p class="css-11jym3a">Stay up to date</p>
+                                <p class="css-hwe194">Submit your email to get the latest news</p>
+                                <div class="css-1kyat81"><img class="css-1t9pz9x" src="img/mail.svg">
+                                    <input placeholder="Enter your email" class="css-mu028j">
+                                    <button class="css-1e837si">Submit</button>
+                                </div>
+                                <hr aria-orientation="horizontal" class="chakra-divider css-1gn5ftr">
+                            </div>
+
+    <div class="footer-container">
+    
+        <div class="box-container">
+    
+            <div class="box">
+                <h3>trading</h3>
+                <a href="#">forum</a>
+                <a href="#">voting</a>
+                <a href="#">announcements</a>
+            </div>
+    
+            <div class="box">
+                <h3>about us</h3>
+                <a href="#">documentation</a>
+                <a href="#">infinite<p> rize</p></a>
+                <a href="#"><p>rize</p> token</a>
+                <a href="#">whitepaper</a>
+            </div>
+    
+            <div class="box">
+                <h3>support</h3>
+                <a href="#">health center</a>
+                <a href="#">contact us</a>
+                <a href="#">feedback</a>
+            </div>
+    
+            <div class="box">
+                <h3>products</h3>
+                <a href="#">trading</a>
+                <a href="#">farming</a>
+                <a href="#">staking</a>
+                <a href="#">nfts</a>
+                <img src="images/payment.png" alt="">
+            </div>
+
+            <div class="box">
+                <h3>blog</h3>
+                <a href="#">news</a>
+                <a href="#">faq</a>
+            </div>
+    
+        </div>
+    
+    </div>
+
+
+                                                                                            <div class="support-media">
+                                                                                                <a target="_blank" rel="noopener noreferrer" class="social" href=""><img class="socialmedia" src="img/logos_telegram.svg"></a>
+                                                                                                <a target="_blank" rel="noopener noreferrer" class="social" href=""><img class="socialmedia" src="img/twitter.svg"></a>
+                                                                                                <a target="_blank" rel="noopener noreferrer" class="social" href=""><img class="socialmedia" src="img/reddit.svg"></a>
+                                                                                                <a target="_blank" rel="noopener noreferrer" class="social" href=""><img class="socialmedia" src="img/medium.svg"></a>
+                                                                                                <a target="_blank" rel="noopener noreferrer" class="social" href=""><img class="socialmedia" src="img/github.svg"></a>
+                                                                                                            </div>
+
+                                                                                            <p class="chakra-text css-qih6wh">infinite <span>Rize</span> 2022 Copyright</p></div>
+                                                                                       
+                                                                        
+    
+    </section>
+    
+    <!-- footer section ends -->
+
+
+
+
+
+<!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
